@@ -1,0 +1,7 @@
+arguments: src/train_tripletloss.py --logs_base_dir /Users/hubertlee/Desktop/facenet-master/logs/facenet --models_base_dir /Users/hubertlee/Desktop/facenet-master/models/facenet --data_dir /Users/hubertlee/Desktop/facenet-master/datasets/lfw_160 --image_size 160 --model_def models.inception_resnet_v1 --lfw_dir /Users/hubertlee/Desktop/facenet-master/datasets/lfw --optimizer ADAM --learning_rate -1 --max_nrof_epochs 500 --batch_size 90 --keep_probability 0.4 --random_flip --learning_rate_schedule_file data/learning_rate_schedule_classifier_vggface2.txt --weight_decay 5e-4 --embedding_size 512 --lfw_dir /Users/hubertlee/Desktop/facenet-master/datasets/lfw --pretrained_model /Users/hubertlee/Desktop/facenet-master/models/facenet/20230824-101949/checkpoint
+--------------------
+tensorflow version: 1.13.1
+--------------------
+git hash: b''
+--------------------
+b''

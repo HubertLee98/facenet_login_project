@@ -1,0 +1,7 @@
+arguments: src/train_tripletloss.py --logs_base_dir ./logs/facenet/ --models_base_dir ./models/facenet/ --data_dir ./datasets/lfw_160 --model_def models.inception_resnet_v1 --optimizer RMSPROP --image_size 160 --batch_size 30 --learning_rate 0.01 --weight_decay 1e-4 --max_nrof_epochs 5 --epoch_size 1
+--------------------
+tensorflow version: 1.15.0
+--------------------
+git hash: b''
+--------------------
+b''

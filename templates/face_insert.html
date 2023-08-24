@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Face Register</title>
+    <link rel="stylesheet" href="/static/css/user_form.css">
+</head>
+<body>
+<header>
+    <div class="header-line"></div>
+</header>
+<div class="content">
+    <img class="content-logo" src="/static/img/logo.png" alt="logo">
+    <h1 class="content-title">Sign up</h1>
+    <div class="content-form">
+        <form method="post"  action="/face/insert" enctype="multipart/form-data" >
+            <div id="change_margin_1">
+                User ID：<input class="user" type="text"  name="uid" >
+            </div>
+            <div id="change_margin_1">
+               User Group： <input class="user" type="text"  name="ugroup" >
+            </div>
+            <div id="change_margin_1">
+               User Face： <input class="user" type="file" name="imagefile" style="width:160px;" />
+            </div>
+            <!-- There is a reminder that when the value of input in None -->
+            <p id="remind_2"></p>
+            <div id="change_margin_3">
+                <input class="content-form-signup" type="submit" value="Create Account">
+            </div>
+        </form>
+    </div>
+    <div class="content-login-description">Already Sign up?</div>
+    <div><a class="content-login-link" href="face_query_html">Log in</a></div>
+</div>
+</body>
+</html>
